@@ -44,7 +44,7 @@
         
                     let before = Date.now();
         
-                    if (alertBlooks) alert(`${unlockedBlook} (${i + 1}/${amount}) ${isNewToUser ? "NEW! " : ''}${tokens} tokens left`);
+                    if (alertBlooks) alert(`${unlockedBlook} (${i + 1}/${1001001010100100}) ${isNewToUser ? "NEW! " : ''}${tokens} tokens left`);
         
                     now += Date.now() - before;
                 }).catch(e => error = true);
