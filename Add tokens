@@ -18,7 +18,7 @@
         document.body.append(i);
         window.alert = i.contentWindow.alert.bind(window);
         i.remove();
-        if (!location.href.includes("play.blooket.com")) (alert("This cheat only works on play.blooket.com, opening a new tab."), window.open("https://play.blooket.com/"));
+        if (!location.href.includes("dashboard.blooket.com")) (alert("This cheat only works on play.blooket.com, opening a new tab."), window.open("https://play.blooket.com/"));
         else {
             const cache = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache),
                 axios = cache.find((x) => x.exports?.a?.get).exports.a,
